@@ -9,8 +9,11 @@ img{
   width: 145px;
 }
 div span{
-  font-size: 15px;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+
+}
+a{
+  color: black;
+  text-decoration: none;
 }
 .container{
   background-color: white;
@@ -30,53 +33,42 @@ div span{
   height: 40px;
   text-align: center;
   margin-top: 40px;
+}
+.menu li{
+  float: left;
+  margin-right: 40px;
+}
+.menu li a{
+  display: block;
+  padding: 12px 30px;
   color: white;
-  float: left;
+  font-size: 15px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
-
-.menu div{
-  float: left;
-  padding: 12px 0px 12px 0px;
-}
-.main{
-  width: 145px;
-}
-.goods{
-  width: 100px;
-}
-.about{
-  width: 170px;
-}
-div .contacts{
-  text-align: left;
-  width: 542px;
-  padding-left: 20px;
-  height: 16px;
-}
- .menu div:hover{
+ .menu li a:hover{
   background-image: url(../img/link.png);
   border-left: 1px #838383 solid;
   border-right: 1px #838383 solid;
   height: 16px;
-}
-div .contacts:hover{
-  border-right: none;
 }
 .sidebar{
   float: left;
   width: 240px;
   height: 240px;
   margin-top: 40px;
-
 }
 .sidebar li{
   border: 1px  solid #c8c8c8;
   line-height: 38px;
-  padding-left: 22px;
   margin-top: -1px;
-  color: #656363;
 }
-.sidebar li:hover{
+.sidebar li a{
+    display: block;
+    color: #656363;
+    font-size: 13px;
+    padding-left: 22px;
+}
+.sidebar li a:hover{
   padding-left: 45px;
   background-color: #f9f9f9;
   color: black;
@@ -96,32 +88,30 @@ div .contacts:hover{
   line-height: 18px;
   color: #2c2c2c;
 }
+
 footer{
   background-color: #e1e1e1;
-  width: 985px;
+  width: 970px;
   height: 40px;
 }
 
-footer div{
+footer li{
   float: left;
-  text-align: center;
+  margin-right: 40px;
 }
-footer span:hover{
+
+footer li a{
+  display: block;
+  padding: 13px 25px;
+  color: #2c2c2c;
+  font-size: 13px;
+
+}
+
+footer li a:hover{
   text-decoration: underline;
 }
-footer div{
-  padding: 10px 0 10px ;
-  color: #2c2c2c;
-}
-.f-main{
-  margin: 0px 90px 0px 25px;
-}
-.f-goods{
-  margin-right: 95px;
-}
-.f-about{
-  margin-right: 95px;
-}
-.f-contacts{
-  margin-right: 235px;
+footer li:nth-child(5){
+  float: right;
+  margin-right: 0px;
 }
