@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/reset.css" >
+    <link rel="stylesheet" href="css/style.css" >
+    <title>Zazor</title>
+  </head>
+
+  <body>
+    <section class="content">
+<!--top-menu-->
+      <header class="top-menu">
+        <div class="phone">
+          <img src="img/phone.png" alt="phone" />
+          (044)123-45-67 (044)567-89-10
+        </div>
+        <div class="avt-f">
+          <img src="img/authoriz.png" alt="avt" />
+          <form class="authoriz" action="index.html" method="post">
+            <input type="text"  placeholder=" логин">
+            <input type="password"  placeholder=" пароль">
+          </form>
+          <a href="#">вход</a>
+          <span>|</span>
+          <a href="#"class="reg">регистрация</a>
+          <a href="#" class="forgot">забыли пароль?</a>
+        </div>
+        <nav class="top-right">
+          <a href="#" class="home"><img src="img/home.png" alt="home" /></a>
+          <a href="#" class="map"><img src="img/map.png" alt="map" /></a>
+          <a href="#"class="email"><img src="img/letter.png" alt="email" /></a>
+        </nav>
+      </header>
+<!--Zazor banner-->
+      <div class="banner clearfix">
+        <img src="img/banner.png" alt="Banner" />
+      </div>
+<!--UNder-bar-menu-->
+      <div class="main-menu">
+        <div class="menu-list">
+          <a href="#">О КОМПАНИ</a>
+          <a href="#">ОПЛАТА</a>
+          <a href="#">ДОСТАВКА</a>
+          <a href="#">СТАТЬИ</a>
+          <a href="#">КОНТАКТЫ</a>
+        </div>
+        <a href="#" class="order"><img src="img/order.png" alt="order" /></a>
+        <span>товаров:</span>
+        <span class="value-1">0</span>
+        <span>на сумму &nbsp;</span>
+        <span class="value-2">0,00 грн.</span>
+      </div>
+<!--3 blocks with forms-->
+      <div class="blocks clearfix">
+        <div class="avto">
+          <header class="first-block">
+            <span class="disc">Диски:</span>
+            <span class="avt-srch">Поиск по автомобилю</span>
+            <span class="trs clearfix">Шины:</span>
+          </header>
+
+          <form class="dsc-s" >
+            <div class="title-line">
+              <div class="title-m">
+                Марка <span class="avto-font">авто:</span>
+              </div>
+              <div class="title-m">
+                Модель <br><span class="avto-font">автомобиля:</span>
+              </div>
+              <div class="title-m">
+                Год выпуска <br><span class="avto-font">автомобиля:</span>
+              </div>
+              <div class="title-m">
+                Комплектация:
+              </div>
+            </div>
+
+            <div class="form-line">
+              <select class="m-1" name="Mark">
+                <option value="_"></option>
+                <option value="1">1</option>
+              </select>
+
+              <select class="m-1" name="Mark">
+                <option value="_"></option>
+                <option value="1">1</option>
+              </select>
+
+                <select class="m-2" name="Mark">
+                  <option value="_"></option>
+                  <option value="1">1</option>
+                </select>
+
+                <select class="m-1" name="Mark">
+                  <option value="_"></option>
+                  <option value="1">1</option>
+                </select>
+              </div>
+          </form>
+          <form class="trs-s" >
+            <div class="title-line">
+              <div class="title-m">
+                Марка <span class="avto-font">авто:</span>
+              </div>
+              <div class="title-m">
+                Модель <br><span class="avto-font">автомобиля:</span>
+              </div>
+              <div class="title-m">
+                Год выпуска <br><span class="avto-font">автомобиля:</span>
+              </div>
+              <div class="title-m">
+                Комплектация:
+              </div>
+            </div>
+            <div class="form-line">
+              <select class="m-1" name="Mark">
+                <option value="_"></option>
+                <option value="1">1</option>
+              </select>
+              <select class="m-1" name="Mark">
+                <option value="_"></option>
+                <option value="1">1</option>
+              </select>
+                <select class="m-2" name="Mark">
+                  <option value="_"></option>
+                  <option value="1">1</option>
+                </select>
+                <select class="m-1" name="Mark">
+                  <option value="_"></option>
+                  <option value="1">1</option>
+                </select>
+              </div>
+              <button type="button" name="button" class="search-b">поиск...</button>
+          </form>
+        </div>
+        <div class="tires">
+          <header class="second-block clearfix">
+            <span class="tires-s">поиск шин</span>
+          </header>
+          <form class="tires-f">
+            <div class="sz">
+              <div class="frst-line clearfix">
+                <span>Размер:</span>
+                  <div class="frst-f">
+                    <select class="first-line">
+                      <option value="145">145</option>
+                      <option value="146">146</option>
+                    </select>
+                    <span style="float:none">/</span>
+                    <select >
+                      <option value=""></option>
+                    </select>
+                  </div>
+              </div>
+              <div class="second-line">
+                <span>R</span>
+                <select>
+                  <option value="12">12</option>
+                  <option value="13">13</option>
+                </select>
+              </div>
+            </div>
+            <div class="season">
+              <span>Сезон:</span>
+              <div class="chck-bx">
+                <div>
+                  <label>
+                    <input type="checkbox" name="season" value="1">
+                    <span>лето</span>
+                  </label>
+                </div>
+                <div>
+                  <label>
+                    <input type="checkbox" name="season" value="1">
+                    <span>зима</span>
+                  </label>
+                </div>
+                <div>
+                  <label>
+                    <input type="checkbox" name="season" value="1">
+                    <span>всесез</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <button type="button" name="button" class="search-2b">поиск...</button>
+          </form>
+        </div>
+        <div class="wheels">
+          <header class="clearfix">
+            <span class="wheels-s">поиск дисков</span>
+          </header>
+          <form class="wh-f">
+            <div class="wh-1c">
+              <div>
+                Диаметр <span>диска:</span>
+              </div>
+              <div>
+                Количество <span>крепежных отверстий:</span>
+              </div>
+              <div>
+                Диаметр <span>расположения крепёжных отверстий:</span>
+              </div>
+            </div>
+            <div class="wh-2c">
+              <select class="wh-1sel" name="">
+                <option value="14">14</option>
+                <option value="15">15</option>
+              </select>
+              <select class="wh-2sel" name="">
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+              <select class="wh-1sel" name="">
+                <option value="12">12</option>
+                <option value="13">13</option>
+              </select>
+            </div>
+            <div class="vline">
+              <img src="img/vline.png" alt="vline" />
+            </div>
+            <div class="wh-3c">
+              <div class="">
+                ДЦО <span>(диаметр центрального отверстия):</span>
+              </div>
+              <select class="dco-sel" name="">
+                <option value="12">12</option>
+                <option value="13">13</option>
+              </select>
+              <div class="">
+                ЕТ <span>(вылет диска):</span>
+              </div>
+              <select class="dco-sel" name="">
+                <option value="12">12</option>
+                <option value="13">13</option>
+              </select>
+            </div>
+            <button type="button" name="button" class="search-3b">поиск...</button>
+          </form>
+        </div>
+      </div>
+<!--central wraper-->
+    <section class="cen">
+        <aside class="right-sb">
+          <header>
+            <img src="img/icon1.png" alt="" />
+            БРЕНДЫ:
+          </header>
+          <div class="sh-r">
+            <img src="img/Shape-l.png" alt="" />
+            ШИНЫ:
+          </div>
+          <form class="r-chckbox" action="index.html" method="post">
+            <label ><input type="checkbox" name="name" value="1">Бренд 1</label>
+            <label ><input type="checkbox" name="name" value="2">Бренд 2</label>
+            <label ><input type="checkbox" name="name" value="3">Бренд 3</label>
+          </form>
+          <div class="sh-r-1">
+            <img src="img/Shape-l.png" alt="" />
+            ДИСКИ:
+          </div>
+          <form class="r-chckbox" action="index.html" method="post">
+            <label ><input type="checkbox" name="name" value="1">Бренд 1</label>
+            <label ><input type="checkbox" name="name" value="2">Бренд 2</label>
+            <label ><input type="checkbox" name="name" value="3">Бренд 3</label>
+            <input type="button" name="name" value="ВЫБРАТЬ" >
+          </form>
+        </aside>
+        <aside class="left-sb">
+          <header>
+            <img src="img/icon1.png" alt="" />
+            КАТАЛОГ ПРОДУКЦИИ:
+          </header>
+          <div class="sh-l">
+            <img src="img/Shape-l.png" alt="" />
+            ШИНЫ:
+          </div>
+          <div class="left-list">
+            <ul>
+              <li><a href="#"><img src="img/Shape-12.png"/>Наименование 1</a></li>
+              <li><a href="#"><img src="img/Shape-12.png"/>Наименование 2</a></li>
+              <li><a href="#"><img src="img/Shape-12.png"/>Наименование 3</a></li>
+              <li><a href="#"><img src="img/Shape-12.png"/>Наименование 4</a></li>
+            </ul>
+          </div>
+          <div class="sh-l">
+            <img src="img/Shape-l.png" alt="" />
+            ДИСКИ:
+          </div>
+          <div class="left-list">
+            <ul>
+              <li><a href="#"><img src="img/Shape-12.png"/>Наименование 1</a></li>
+              <li><a href="#"><img src="img/Shape-12.png"/>Наименование 2</a></li>
+              <li><a href="#"><img src="img/Shape-12.png"/>Наименование 3</a></li>
+              <li><a href="#"><img src="img/Shape-12.png"/>Наименование 4</a></li>
+            </ul>
+          </div>
+          <div class="sh-l">
+            <img src="img/Shape-l.png" alt="" />
+            БОЛТЫ:
+          </div>
+          <div class="left-list">
+            <ul>
+              <li><a href="#"><img src="img/Shape-12.png"/>Наименование 1</a></li>
+              <li><a href="#"><img src="img/Shape-12.png"/>Наименование 2</a></li>
+              <li><a href="#"><img src="img/Shape-12.png"/>Наименование 3</a></li>
+              <li><a href="#"><img src="img/Shape-12.png"/>Наименование 4</a></li>
+            </ul>
+          </div>
+        </aside>
+        <div class="s-result">
+          <img src="img/main.png" alt="main" />
+        </div>
+    </section>
+    <div class="add">
+      <img src="img/add.png" alt="add" />
+    </div>
+<!--FOOTER-->
+    <footer>
+      <ul>
+        <li>
+          <a href="#">
+            О компании&nbsp;&nbsp;|
+          </a>
+        </li>
+        <li>
+          <a href="#">
+             Доставка&nbsp;&nbsp;|
+           </a>
+        </li>
+        <li>
+          <a href="#">
+             Статьи&nbsp;&nbsp;|
+           </a>
+        </li>
+        <li>
+          <a href="#">
+             Контакты
+          </a>
+        </li>
+      </ul>
+      <span>Создание сайта &copy; Global Vision</span>
+    </footer>
+    
+    </section>
+  </body>
+</html>
