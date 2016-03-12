@@ -285,6 +285,7 @@ footer{
 }
 hr{
   margin-top: 0px;
+  clear: both;
 }
 .central-logos{
   display: block;
@@ -738,11 +739,13 @@ header{
   }
   .central-start{
     margin-left: 0px;
+    background-image: url('../img/start-bg-320.png');
+    height: 310px;
   }
   .central-start-article-320{
     display: block;
     margin-left: 40px;
-    margin-top: 90px;
+    margin-top: 50px;
     margin-right: 0px;
     width: 67%;
   }
@@ -764,6 +767,9 @@ header{
   .central-updates{
     margin-left: 10px;
     max-width: 285px;
+  }
+  .central-updates-article p{
+    padding-left: 60px;
   }
   .central-logos{
     display: none;
