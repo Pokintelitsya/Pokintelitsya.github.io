@@ -1,0 +1,22 @@
+.top_menu-item{
+  float: left;
+  margin-right: 8%;
+}
+.top_menu-item-lst{
+  margin-right: 0;
+}
+.news-article-lst{
+  margin-right: 0px;
+}
+.slider-nav{
+  background-image: url('../img/nav-ie.png');
+}
+.menu-wrp{
+  width: 85%;
+}
+.top_menu{
+  margin-left: 22%;
+}
+.slider-iphone{
+  display: none;
+}
