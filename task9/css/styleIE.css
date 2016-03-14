@@ -20,3 +20,8 @@
 .slider-iphone{
   display: none;
 }
+.info-article a:hover{
+  background-image: url('../img/a-bg.png');
+  background-position: -1px -0px;
+  background-repeat: no-repeat;
+}
