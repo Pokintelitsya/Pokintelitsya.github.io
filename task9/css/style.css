@@ -50,12 +50,14 @@
 .top_menu{
   float: left;
   margin-top: 66px;
+  /*margin-left: 174px;*/
   margin-left: 52%;
   position: absolute;
   width:633px;
 }
 .top_menu-item:not(:last-child){
   float: left;
+  /*margin-right: 52px;*/
   margin-right: 8%;
 }
 .top_menu-item a{
@@ -508,8 +510,9 @@ margin-left: 55px;
 }
 @media screen and (max-width:786px){
 .logo{
-  margin-left: 30%;
-  margin-top: 65px
+  width: 100%;
+  text-align: center;
+  margin-top: 65px;
   }
 .menu-wrp{
   display: none;
@@ -523,12 +526,12 @@ margin-left: 55px;
 .menu-wrp-480{
   display: block;
   margin-top: 130px;
-  height: 261px;
-  width: 40%;
-  margin-left: 23%;
+  height: 258px;
+  width: 36%;
   position: absolute;
-  border-radius: 7px;
-  border: 1px rgba(28,37,42,0.7) solid;
+  margin-left: -25%;
+  left: 56%;
+
 }
 .top_menu-480{
   display: block;
@@ -543,8 +546,14 @@ margin-left: 55px;
   padding-bottom: 3px;
   padding-left: 20%;
   padding-right: 20%;
-  border-top-left-radius: 5px;
+}
+.top_menu-480 .top_menu-item-480:last-of-type{
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.top_menu-480 :first-child{
   border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 .top_menu-item-480 a{
   font-family: 'gothic';
@@ -697,8 +706,11 @@ margin-left: 55px;
   .top_menu-320{
     display: block;
     width: 50%;
-    margin-top:40px;
-    margin-left: 40%;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: -25%;
+    left: 50%;
+    text-align: center;
   }
   .top_menu-item-320{
     display: block;
@@ -784,4 +796,9 @@ margin-left: 55px;
   .footer-menu{
     display: none;
   }
+  .footer-copyright{
+  width: 100%;
+  margin-left: 0px;
+  text-align: center;
+}
 }
