@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css" >
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <title>Tooltip</title>
+  </head>
+
+  <body>
+    <form>
+    <fieldset>
+      <div class="fields">
+        <div class="oneField">
+          <label for="firstname">Firstname</label>
+          <input id="firstname" name="firstname">
+        </div>
+
+        <div class="oneField">
+          <label for="lastname">Lastname</label>
+          <input id="lastname" name="lastname">
+        </div>
+
+        <div class="oneField">
+          <label for="address">Address</label>
+          <input id="address" name="address">
+        </div>
+      </div>
+
+      <div class="help">
+        <div id="helpFirstname">
+          Please provide your firstname.
+        </div>
+        <div id="helpLastname">
+          Please provide your lastname.
+        </div>
+        <div id="helpAddress">
+          Please provide your address.
+        </div>
+      </div>
+    </fieldset>
+    <button id="show" type="button" name="button">Show help</button>
+  </form>
+  </body>
+
+</html>

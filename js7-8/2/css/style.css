@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #bbb;
+  font-family: sans-serif;
+}
+form{
+  border: 1px solid black;
+  background-color: white;
+  width: 1100px;
+  margin: 25px auto;
+}
+fieldset{
+  margin: 15px auto;
+  width: 1000px;
+}
+button{
+  margin: 0 0 15px 48px;
+  width: 100px;
+  height: 25px;
+
+}
+.oneField{
+  margin: 15px 0 15px 20px;
+}
+.fields{
+  float: left;
+  width: 330px;
+}
+.help{
+  width: 300px;
+  float: left;
+  margin-top: 15px;
+}
+#firstname{
+  margin-left: 45px;
+}
+#lastname{
+  margin-left: 47px;
+}
+#address{
+  margin-left: 58px;
+}
+
+.help>div{
+  margin-bottom: 14px;
+  border: 1px solid black;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(24,17,240,1);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(24,17,240,1);
+  box-shadow: 0px 2px 5px 0px rgba(24,17,240,1);
+}
