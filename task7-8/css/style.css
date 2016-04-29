@@ -3,6 +3,9 @@
     clear: both;
     content: '';
 }
+body{
+  min-width: 320px;
+}
 header{
   background: url('../img/topblock-bg.jpg') center no-repeat fixed;
   background-size: cover;
@@ -538,7 +541,7 @@ margin-left: 55px;
 }
 .top_menu-item-480{
   display: block;
-  width: 60%;
+  width: 71%;
   background: rgba(72,59,78,0.7);
   line-height: 37px;
   border-top: 1px #503d58 solid;
@@ -551,9 +554,13 @@ margin-left: 55px;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
 }
-.top_menu-480 :first-child{
+.top_menu-480 .top_menu-item-480:first-child{
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  display: block;
+  text-decoration: underline;
 }
 .top_menu-item-480 a{
   font-family: 'gothic';
@@ -564,11 +571,21 @@ margin-left: 55px;
   text-shadow: -1px 2px 0px rgba(0, 0, 0, 0.41);
   letter-spacing: 1px;
   letter-spacing: 1.3px;
-  border-bottom: 2px #edbfff solid;
+  /*border-bottom: 2px #edbfff solid;*/
   width: 100%;
   text-align: center;
   }
+.menu-wrp-480 ul li{
+  display: none;
+}
+.menu-wrp-480 ul:hover li, .menu-wrp-480 ul:hover .top_menu-item-480:first-of-type{
+  display: block;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
 .top_menu-item-480:hover{
+  border-bottom: 2px #edbfff solid;
   transition: 0.5s;
   background: rgba(45,36,50,0.7);
 }
@@ -705,22 +722,30 @@ header{
   }
   .top_menu-320{
     display: block;
-    width: 50%;
+    width: 34%;
     position: absolute;
     margin-top: 130px;
-    margin-left: -25%;
+    margin-left: -17%;
     left: 50%;
     text-align: center;
   }
-  .top_menu-item-320{
-    display: block;
+  .top_menu-item.top_menu-item-320{
+    display: none;
+    float: none;
   }
+.top_menu-item.top_menu-item-320:first-child{
+  display: block;
+}
+.top_menu-320:hover .top_menu-item.top_menu-item-320{
+  display: block;
+}
   .slider{
     background: none;
+    margin-top: 160px;
   }
   .slider-nav{
     background-image: url('../img/nav-320.png');
-    height: 58%;
+    height: 68%;
   }
   .slider-iphone{
     display: none;
