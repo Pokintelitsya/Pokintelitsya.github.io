@@ -10,6 +10,13 @@
 }
 .slider-nav{
   background-image: url('../img/nav-ie.png');
+  width: 100%;
+  height: 678px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.slider:after{
+  display: none;
 }
 .menu-wrp{
   width: 85%;
