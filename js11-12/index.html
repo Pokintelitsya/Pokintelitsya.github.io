@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>jS11-12</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/style-for-tmpl.css">
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js" ></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/carousel.js"></script>
+    <script type="text/javascript" src="js/tmpl.js"></script>
+  </head>
+  <body>
+<!-- Carousel plugin -->
+    <div class="carousel-wrapper">
+      <div class="carousel">
+        <ul class="carousel-list">
+          <li class="carousel-elem"><img src="img/images1.jpg" alt="iamges1" /><p>Description 1</p></li>
+          <li class="carousel-elem"><img src="img/images2.jpg" alt="iamges2" /><p>Description 2</p></li>
+          <li class="carousel-elem"><img src="img/images3.jpg" alt="iamges3" /><p>Description 3</p></li>
+          <li class="carousel-elem"><img src="img/images4.jpg" alt="iamges4" /><p>Description 4</p></li>
+          <li class="carousel-elem"><img src="img/images5.jpg" alt="iamges5" /><p>Description 5</p></li>
+          <li class="carousel-elem"><img src="img/images6.jpg" alt="iamges6" /><p>Description 6</p></li>
+        </ul>
+      </div>
+    </div>
+
+<!-- Tmpl -->
+    <script type="text/template" id="myTmpl">
+      <div class="page">
+        <div class="content">
+          <div class="name">
+            <h1><%=title %></h1>
+          </div>
+          <div class="photo">
+            <img src="img/MyPh.jpg" alt="Photo" />
+          </div>
+          <div class="professie">
+            <%=prof%>
+          </div>
+          <hr>
+          <div class="why">
+            <p>
+              <%=obj%>
+            </p>
+            <ul>
+              <li><%=obj1%></li>
+              <li><%=obj2%></li>
+              <li><%=obj3%></li>
+            </ul>
+          </div>
+          <hr>
+          <div class="contacts">
+            <p>
+              <%=contacts%>
+            </p>
+          </div>
+          <hr>
+          <div class="feedback">
+            <p>
+              <%=feedback%>
+            </p>
+          </div>
+        </div>
+      </div>
+    </script>
+<!-- tmpl_end -->
+  </body>
+</html>
