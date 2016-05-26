@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Js13-14</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <script src="js/tmpl.js"></script>
+  </head>
+
+  <body>
+<!--Template-->
+  <script type="text/template" id="myTmpl">
+    <div class="testWrapper">
+      <form class="container">
+        <h1 class="text-center"><%=header%></h1>
+        <h3><%=question1%></h3>
+        <% answers1.forEach(function(item, i) { %>
+        <div class="radio container">
+          <label><input type="radio" name="question1" id="q1-<%=i+1%>"><%=item%></label>
+        </div>
+        <% }); %>
+        <h3><%=question2%></h3>
+        <% answers2.forEach(function(item, i) { %>
+        <div class="radio container">
+          <label><input type="radio" name="question2" id="q2-<%=i+1%>"><%=item%></label>
+        </div>
+        <% }); %>
+        <h3><%=question3%></h3>
+        <% answers3.forEach(function(item, i) { %>
+        <div class="radio container">
+          <label><input type="radio" name="question3" id="q3-<%=i+1%>"><%=item%></label>
+        </div>
+        <% }); %>
+        <div class="container">
+          <input type="button" id="checkResult" value="Проверить мои результаты" class="btn btn-default btn-lg btn-block active" >
+        </div>
+      </form>
+    </div>
+  <!--Modal-->
+    <div class="modal-wrapper" id="myModal">
+        <div class="modal-fade"></div>
+        <div class="modal-body">
+          <p id="result"><%=result%></p>
+        </div>
+    </div><!-- /.modal -->
+  </script>
+<!--/Template-->
+  </body>
+</html>
