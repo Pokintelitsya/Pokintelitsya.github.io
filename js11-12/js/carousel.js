@@ -27,7 +27,7 @@
 // leftScroll
       leftArrow.click(function () {
         if(settings.infinite){
-          if ( currentOffset != -325 ){
+          if ( currentOffset != -325 && currentOffset != 0 ){
             currentOffset += offset;
             elem.animate({left: currentOffset+'px'}, 500);
           }else {
@@ -46,7 +46,7 @@
 // rightScroll
       rightArrow.click(function() {
         if(settings.infinite){
-          if( currentOffset != -1625){
+          if( currentOffset != -1625 && currentOffset != -1950){
             currentOffset -= offset;
             elem.animate({left: currentOffset+'px'}, 500);
           }else {
