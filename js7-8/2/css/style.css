@@ -31,24 +31,18 @@ button{
   width: 330px;
 }
 .help{
-  width: 300px;
+  opacity: 0; 
+  width: 245px;
   float: left;
-  margin-top: 15px;
-}
-#firstname{
-  margin-left: 45px;
-}
-#lastname{
-  margin-left: 47px;
-}
-#address{
-  margin-left: 58px;
-}
-
-.help>div{
-  margin-bottom: 14px;
+  margin:-35px 0px 0px 293px;
   border: 1px solid black;
   -webkit-box-shadow: 0px 2px 5px 0px rgba(24,17,240,1);
   -moz-box-shadow: 0px 2px 5px 0px rgba(24,17,240,1);
   box-shadow: 0px 2px 5px 0px rgba(24,17,240,1);
+}
+.address{
+  margin-left: 13px;
+}
+.lastname{
+  margin-left: 1px;
 }
