@@ -1,0 +1,260 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.clearfix::after {
+  display: block;
+  content: '';
+  clear: both; }
+
+body {
+  color: white;
+  font-family:  'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #bbb; }
+
+.footer-wrapper {
+  padding-top: 40px;
+  background-color: #15b284;
+  background-image: url(../img/background.png);
+  background-position: bottom;
+  background-repeat: no-repeat; }
+
+.footer-content {
+  width: 92%;
+  margin-left: 4%; }
+
+.footer-topline {
+  margin-bottom: 50px; }
+
+.footer-logo {
+  display: inline-block;
+  float: left;
+  margin-top: 10px; }
+  .footer-logo a {
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    width: 230px;
+    height: 33px;
+    display: block; }
+
+.footer-about {
+  width: 68.3%;
+  float: left;
+  padding-left: 40px;
+  margin-left: 40px;
+  border-left: 1px solid #54595c;
+  color: white;
+  font-family:  'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.2; }
+
+.footer-columns {
+  font-size: 17px; }
+  .footer-columns ul:nth-last-of-type(1) {
+    margin-right: 0px;
+    margin-left: -2%; }
+  .footer-columns a {
+    text-decoration: none;
+    color: white; }
+  .footer-columns ul {
+    float: left;
+    margin-right: 11%; }
+  .footer-columns li {
+    margin-bottom: 20px; }
+
+.download {
+  margin-bottom: 30px; }
+
+.appstore {
+  float: left;
+  margin-right: 20px; }
+  .appstore a {
+    display: block;
+    width: 146px;
+    height: 48px;
+    background-image: url("../img/appstore.png");
+    background-repeat: no-repeat; }
+
+.googleplay {
+  float: left;
+  margin-right: 17.69231%; }
+  .googleplay a {
+    display: block;
+    width: 146px;
+    height: 48px;
+    background-image: url("../img/googleplay.png");
+    background-repeat: no-repeat; }
+
+.footer-bottomline {
+  margin-top: 75px;
+  padding-bottom: 40px; }
+  .footer-bottomline ul {
+    float: left; }
+    .footer-bottomline ul li {
+      float: left;
+      margin-right: 20px; }
+      .footer-bottomline ul li a {
+        width: 48px;
+        height: 48px;
+        display: block;
+        background-image: url("../img/social.png");
+        background-repeat: no-repeat; }
+    .footer-bottomline ul .vk a:hover {
+      background-position: 0px -48px; }
+    .footer-bottomline ul .f a {
+      background-position: -68px 0px; }
+    .footer-bottomline ul .f a:hover {
+      background-position: -68px -48px; }
+    .footer-bottomline ul .twitter a {
+      background-position: -136px 0px; }
+    .footer-bottomline ul .twitter a:hover {
+      background-position: -136px -48px; }
+    .footer-bottomline ul .g a {
+      background-position: -204px 0px; }
+    .footer-bottomline ul .g a:hover {
+      background-position: -204px -48px; }
+  .footer-bottomline .insite {
+    float: left;
+    display: block;
+    margin-left: 8%;
+    width: 250px; }
+  .footer-bottomline .insite-text {
+    width: 140px;
+    float: left;
+    padding-right: 15px;
+    margin-right: 15px;
+    border-right: 1px solid #54595c; }
+  .footer-bottomline .insite-logo a {
+    display: block;
+    float: left;
+    width: 55px;
+    height: 49px;
+    background-image: url("../img/InSitelogo.png");
+    background-repeat: no-repeat; }
+
+.max-width-1230 {
+  display: none; }
+
+.max-width-770 {
+  display: none; }
+
+@media screen and (max-width: 1230px) {
+  .footer-columns {
+    display: none; }
+  .max-width-1230 {
+    display: block;
+    margin-left: 2%;
+    margin-top: 50px; }
+    .max-width-1230 ul {
+      width: 30%;
+      margin-right: 4%; }
+  .footer-content {
+    margin: auto; }
+  .footer-about {
+    width: 538px; }
+  .footer-topline {
+    width: 95%;
+    margin: auto; }
+  .googleplay {
+    margin-right: 11%; }
+  .footer-bottomline ul li {
+    margin-right: 5px; }
+  .footer-bottomline .insite {
+    margin-left: 0;
+    float: right; } }
+
+@media screen and (max-width: 990px) {
+  .social {
+    clear: both; }
+  .download {
+    margin-left: 29%;
+    padding-bottom: 30px; }
+  .footer-topline {
+    width: 96%; }
+  .footer-about {
+    width: 360px;
+    padding-left: 6%;
+    margin-left: 6%; } }
+
+@media screen and (max-width: 770px) {
+  .max-width-1230 {
+    display: none; }
+  .max-width-770 {
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    width: 95%; }
+    .max-width-770 ul {
+      width: 45%;
+      margin-right: 5%; }
+  .footer-about {
+    clear: both;
+    border-left: none;
+    width: 95%;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 20px; } }
+
+@media screen and (max-width: 580px) {
+  .footer-bottomline .insite {
+    clear: both;
+    float: left;
+    margin-top: 20px;
+    margin-left: 27%; }
+  .googleplay {
+    margin-right: 0; }
+  .download {
+    margin-right: 0;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    height: 48px;
+    margin-bottom: 20px; }
+  .appstore {
+    position: absolute;
+    left: 50%;
+    margin-left: -146px; }
+  .googleplay {
+    position: absolute;
+    margin-left: 5px;
+    left: 50%; }
+  .social {
+    margin-left: 28%; } }
