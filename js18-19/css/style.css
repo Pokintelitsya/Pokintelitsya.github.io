@@ -137,3 +137,7 @@ body {
     .top-menu form input[type='submit'] {
       margin: 7px 15px 7px -30px;
       height: 36px; }
+
+.carousel {
+  width: 86%;
+  margin-left: 7%; }
