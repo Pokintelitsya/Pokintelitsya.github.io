@@ -50,8 +50,8 @@ body {
   clear: both; }
 
 .header {
-  width: 93.54839%;
-  margin-left: 3.22581%; }
+  width: 86%;
+  margin-left: 7%; }
   .header img {
     float: left; }
   .header ul {
@@ -105,9 +105,9 @@ body {
 
 .top-menu {
   margin-top: 30px;
-  width: 93.54839%;
-  margin-left: 3.22581%;
-  margin-right: 3.22581%;
+  width: 86%;
+  margin-left: 7%;
+  margin-right: 7%;
   background-color: #2a2d32; }
   .top-menu ul li {
     float: left;

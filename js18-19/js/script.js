@@ -1,4 +1,3 @@
-console.log('script works');
-
-
-console.log(_.join(['1', '2', '3'],'~'));
+$(document).ready(function(){
+  $('.single-item').slick({dots: true});
+});
