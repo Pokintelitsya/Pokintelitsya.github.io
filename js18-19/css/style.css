@@ -1,0 +1,139 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  width: 100%; }
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both; }
+
+.header {
+  width: 93.54839%;
+  margin-left: 3.22581%; }
+  .header img {
+    float: left; }
+  .header ul {
+    float: right; }
+    .header ul li {
+      float: left; }
+  .header a {
+    display: block;
+    width: 25px;
+    height: 17px;
+    float: left;
+    background-image: url("../img/links.png");
+    background-repeat: no-repeat; }
+  .header .facebook a {
+    background-position: 0px 0px; }
+  .header .facebook:hover a {
+    background-position: 0px -16px; }
+  .header .twitter a {
+    background-position: -30px 0px; }
+  .header .twitter:hover a {
+    background-position: -30px -16px; }
+  .header .rss a {
+    background-position: -60px 0px; }
+  .header .rss:hover a {
+    background-position: -60px -16px; }
+  .header .linkedin a {
+    background-position: -90px 0px;
+    margin-right: 10px; }
+  .header .linkedin:hover a {
+    background-position: -90px -16px; }
+  .header .skype a {
+    background-position: -128px 0px; }
+  .header .skype:hover a {
+    background-position: -128px -16px; }
+
+.title-text {
+  width: 160px;
+  float: left;
+  font-size: 30px;
+  font-family: "Ubuntu";
+  color: #434343;
+  line-height: 0.667; }
+
+.title-text_small {
+  font-size: 12px;
+  font-family: "Ubuntu";
+  color: rgba(51, 51, 51, 0.651);
+  text-transform: uppercase;
+  line-height: 1.667;
+  letter-spacing: 2px; }
+
+.top-menu {
+  margin-top: 30px;
+  width: 93.54839%;
+  margin-left: 3.22581%;
+  margin-right: 3.22581%;
+  background-color: #2a2d32; }
+  .top-menu ul li {
+    float: left;
+    margin: 18px 0px -9px 0px; }
+    .top-menu ul li :hover {
+      background-color: #248cec;
+      color: #f4b60d; }
+    .top-menu ul li a {
+      font-size: 14px;
+      font-family: "UbuntuCondensed";
+      text-transform: uppercase;
+      line-height: 1.429;
+      text-decoration: none;
+      color: #c6c7c8;
+      padding: 19px 12px 18px 15px; }
+  .top-menu form {
+    float: right; }
+    .top-menu form input {
+      background-color: #35383c;
+      height: 40px;
+      margin: 7px 0px 7px 0px;
+      border: none;
+      color: #c6c7c8; }
+    .top-menu form input[type='search'] {
+      border: 1px solid black;
+      padding-left: 5px; }
+    .top-menu form input[type='submit'] {
+      margin: 7px 15px 7px -30px;
+      height: 36px; }
