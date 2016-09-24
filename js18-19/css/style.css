@@ -141,3 +141,37 @@ body {
 .carousel {
   width: 86%;
   margin-left: 7%; }
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+  width: 86%;
+  margin-left: 7%; }
+  .columns img {
+    margin-top: 10px;
+    margin-bottom: 14px; }
+  .columns h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px; }
+  .columns p {
+    color: #8a8a8a; }
+  .columns a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-top: 20px; }
+    .columns a span {
+      color: blue; }
+  .columns a:hover {
+    color: blue; }
+    .columns a:hover span {
+      color: #bbb; }
+  .columns .column {
+    display: flex;
+    width: 350px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px; }
+    .columns .column .columns-number {
+      color: #bbb;
+      font-size: 90px; }
