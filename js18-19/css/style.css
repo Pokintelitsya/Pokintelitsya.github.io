@@ -175,3 +175,42 @@ body {
     .columns .column .columns-number {
       color: #bbb;
       font-size: 90px; }
+
+.services-container {
+  display: flex;
+  background-color: #2a2d32;
+  margin-top: 25px;
+  margin-bottom: 25px; }
+
+.services {
+  display: flex;
+  flex-flow: row wrap;
+  margin: auto;
+  justify-content: space-between;
+  width: 86%;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 24px; }
+  .services .services-title {
+    flex: 1 100%;
+    margin: 50px 0px 50px 0px; }
+  .services .service {
+    font-size: 16px;
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: 25px;
+    text-decoration: none;
+    color: white; }
+    .services .service .hover-bg {
+      position: absolute;
+      opacity: 0; }
+    .services .service .hover-bg:hover {
+      transition-property: all;
+      transition-duration: 1s;
+      opacity: 1; }
+    .services .service img {
+      margin-bottom: 20px; }
+  .services .service:hover {
+    color: #f4b60d;
+    transition-property: all;
+    transition-duration: 1s; }
