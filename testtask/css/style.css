@@ -414,9 +414,9 @@ footer .cop{
   }
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 720px){
   body{
-    max-width: 480px;
+    max-width: 720px;
   }
   .intro h1{
     font-size: 30px;
