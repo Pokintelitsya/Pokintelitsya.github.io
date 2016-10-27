@@ -413,3 +413,43 @@ footer .cop{
     height: 720px;
   }
 }
+
+@media screen and (max-width: 480px){
+  body{
+    max-width: 480px;
+  }
+  .intro h1{
+    font-size: 30px;
+  }
+  .intro h3{
+    font-size: 29px;
+  }
+  .reg h1{
+    font-size: 25px;
+  }
+  .reg button{
+    width: 224px;
+  }
+  .join h1{
+    font-size: 25px;
+  }
+  .join h2{
+    font-size: 19px;
+  }
+  .services{
+    height: 730px;
+  }
+  .services-title h2{
+    font-size: 17px;
+  }
+  .services-title h1{
+    font-size: 32px;
+  }
+  .services-title p{
+    font-size: 14px;
+  }
+  .steps ul li{
+    width: 25%;
+    margin-right: 12%;
+  }
+}
