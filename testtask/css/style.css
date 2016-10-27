@@ -316,6 +316,7 @@ footer{
 }
 footer .social{
   width: 50%;
+  display: flex;
   margin: auto;
   margin-top: 65px;
   height: 60px;
@@ -327,10 +328,82 @@ footer ul li{
 footer ul{
   display: block;
   margin: auto;
-  padding-left: 33%;
+  width: 215px;
 }
 footer .cop{
   color: #616060;
   font-size: 12px;
   margin-top: 35px;
+}
+
+@media screen and (max-width: 1280px){
+  .menu-button{
+    display: none;
+  }
+  .top-menu{
+    display: block;
+    opacity: 1;
+    position: absolute;
+  }
+  .top-menu ul{
+    margin-left: 20%;
+  }
+  .about-details button{
+    width: 50%;
+  }
+  .about-details p{
+    flex: 34%;
+  }
+  .services-title{
+    margin-left: 26%;
+    padding-top: 109px;
+  }
+  .services-refs{
+    margin-right: 4%;
+  }
+  .steps-img img{
+    width: 90%;
+  }
+  .join{
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 960px){
+  .top-menu{
+    margin-left: 38%;
+    width: 201px;
+    height: 233px;
+    border-radius: 15px;
+    margin-top: 6px;
+  }
+  .top-menu ul{
+    margin-top: 25px;
+  }
+  .top-menu ul li{
+    margin-bottom: 10px;
+  }
+  .about-details p{
+    margin-top: 20px;
+    margin-bottom: 17px;
+  }
+  .about-photo-1 img,.about-photo-2 img,.about-photo-3 img{
+    width: 100%;
+  }
+  .about-photo-1 img{
+    margin-bottom: 12px;
+  }
+  .services{
+    background-image: none;
+    background-color: #434849;
+  }
+  .services-title{
+    margin-left: 12%;
+  }
+  .services-refs{
+    margin-right: 10%;
+  }
+  .join{
+    height: 720px;
+  }
 }
