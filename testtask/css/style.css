@@ -370,7 +370,12 @@ footer .cop{
 }
 
 @media screen and (max-width: 960px){
+  .menu-button{
+    display: block;
+  }
   .top-menu{
+    display: none;
+    opacity: 0;
     margin-left: 38%;
     width: 201px;
     height: 233px;
