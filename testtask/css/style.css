@@ -121,6 +121,7 @@ header{
   flex-flow: row wrap;
   justify-content: center;
   margin-top: -198px;
+  margin-bottom: 140px;
   width: 84%;
   -webkit-box-shadow: -2px 2px 27px -5px rgba(0,0,0,0.57);
   -moz-box-shadow: -2px 2px 27px -5px rgba(0,0,0,0.57);
@@ -146,4 +147,190 @@ header{
 }
 .about-details button:focus{
   outline: none;
+}
+.photos{
+
+}
+.about-photo-1 img{
+  width: 49%;
+  float: left;
+}
+.about-photo-2 img{
+  width: 49%;
+  float: right;
+  margin-bottom: 19px;
+}
+.about-photo-3 img{
+  width: 49%;
+  float: right;
+}
+.services{
+  width: 100%;
+  background-image: url("../img/services-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 619px;
+  margin-top: 150px;
+}
+.services-title{
+  width: 31%;
+  float: left;
+  color: white;
+  margin-left: 20%;
+  padding-top: 142px;
+}
+.services-title h1{
+  font-size: 40px;
+  margin-bottom: 15px;
+  font-weight: normal;
+}
+.services-title h2{
+  font-size: 25px;
+  font-weight: normal;
+  margin: 25px 0px 25px 0px;
+}
+.services-refs{
+  float: right;
+  color: white;
+  margin-top: 150px;
+  margin-right: 20%;
+}
+.services-refs div{
+  padding-bottom: 32px;
+  padding-top: 8px;
+}
+.services-refs div:hover{
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+.services-refs div span{
+  margin-left: -30px;
+}
+.services-refs div img{
+  margin-bottom: -30px;
+}
+.services-photo{
+  padding-left: 15px;
+  padding-right: 10px;
+}
+.services-travel{
+  margin-left: 3px;
+}
+.services-arrow img{
+  float: right;
+  margin-right: 30px;
+}
+.services-refs .services-arrow{
+  font-size: 14px;
+  margin-left: 4px;
+  padding-left: 40px;
+  padding-bottom: 10px;
+}
+
+.reg{
+  width: 100%;
+  height: 522px;
+  padding-top: 130px;
+  background-image: url("../img/reg-bg.png");
+  background-repeat: no-repeat;
+  text-align: center;
+
+}
+.reg h1{
+  color: #1e5ee1;
+  font-size: 38px;
+  font-weight: normal;
+  padding-bottom: 10px;
+  letter-spacing: -2.1px;
+}
+.reg-content {
+  width: 48%;
+  margin: auto;
+}
+.reg p{
+  color: #4d4e4e;
+  font-size: 16px;
+  margin-top: 35px;
+  margin-bottom: 75px;
+}
+.reg button{
+  background-color: #1a67af;
+  border: 1px solid #1a67af;
+  border-radius: 30px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 14px;
+  width: 300px;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+.reg button:focus{
+  outline: none;
+}
+
+.join{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  height: 500px;
+}
+.join h1{
+  color: #1a67af;
+  font-size: 38px;
+  font-weight: normal;
+}
+.join h2{
+  color: #4d4e4e;
+  font-size: 28px;
+  font-weight: normal;
+  margin-bottom: 30px;
+  margin-top: 25px;
+}
+.join p{
+  color: #696a6a;
+  font-size: 16px;
+}
+.join .title{
+  width: 65%;
+  margin: auto;
+  margin-bottom: 65px;
+}
+.steps ul li{
+  float: left;
+  list-style: none;
+  width: 20%;
+  margin-right: 20%;
+}
+.steps ul li:last-child{
+  margin-right: 0;
+}
+
+footer{
+  background-color: #f3f8f9;
+  text-align: center;
+  width: 100%;
+  height: 250px;
+  padding-top: 100px;
+}
+footer .social{
+  width: 50%;
+  margin: auto;
+  margin-top: 65px;
+  height: 60px;
+}
+footer ul li{
+  float: left;
+  list-style: none;margin-right: 5%;
+}
+footer ul{
+  display: block;
+  margin: auto;
+  padding-left: 33%;
+}
+footer .cop{
+  color: #616060;
+  font-size: 12px;
+  margin-top: 35px;
 }
