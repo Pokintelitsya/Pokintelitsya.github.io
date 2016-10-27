@@ -474,6 +474,7 @@ footer .cop{
 @media screen and (max-width: 720px){
   .top-menu{
     margin-left: 20%;
+    width: 195px;
   }
   .services-refs{
     margin-right: 0px;
