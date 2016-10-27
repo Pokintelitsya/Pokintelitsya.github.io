@@ -146,6 +146,11 @@ header{
   cursor: pointer;
   margin-bottom: 50px;
 }
+.about-details button:hover{
+  -webkit-box-shadow: 2px 2px 26px -5px rgba(70,121,250,1);
+-moz-box-shadow: 2px 2px 26px -5px rgba(70,121,250,1);
+box-shadow: 2px 2px 26px -5px rgba(70,121,250,1);
+}
 .about-details button:focus{
   outline: none;
 }
@@ -270,7 +275,11 @@ header{
 .reg button:focus{
   outline: none;
 }
-
+.reg button:hover{
+  -webkit-box-shadow: 2px 2px 33px -1px rgba(70,121,250,1);
+-moz-box-shadow: 2px 2px 33px -1px rgba(70,121,250,1);
+box-shadow: 2px 2px 33px -1px rgba(70,121,250,1);
+}
 .join{
   width: 80%;
   margin: auto;
@@ -321,6 +330,12 @@ footer .social{
   margin: auto;
   margin-top: 65px;
   height: 60px;
+}
+.social img:hover{
+  border-radius: 30px;
+  -webkit-box-shadow: 2px 2px 33px -1px rgba(59,64,77,1);
+-moz-box-shadow: 2px 2px 33px -1px rgba(59,64,77,1);
+box-shadow: 2px 2px 33px -1px rgba(59,64,77,1);
 }
 footer ul li{
   float: left;
