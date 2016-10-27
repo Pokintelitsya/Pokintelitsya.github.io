@@ -453,3 +453,42 @@ footer .cop{
     margin-right: 12%;
   }
 }
+@media screen and (max-width: 720px){
+  .top-menu{
+    margin-left: 20%;
+  }
+  .services-refs{
+    margin-right: 0px;
+  }
+  .services-title{
+    margin-left: 2%;
+  }
+  .about-details button{
+    width: 70%;
+  }
+  .reg{
+    padding-top: 25px;
+  }
+  .reg h1{
+    font-size: 19px;
+  }
+  .reg button{
+    width: 170px;
+  }
+  .join{
+    height: 750px;
+  }
+  .join h1{
+    font-size: 19px
+  }
+  .steps ul li{
+    width: 100%;
+    float: none;
+  }
+  footer{
+    padding-top: 37px;
+  }
+  footer .social{
+    width: 69%;
+  }
+}
