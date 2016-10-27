@@ -119,6 +119,7 @@ header{
   background-color: #fdfdfd;
   display: flex;
   flex-flow: row wrap;
+  z-index: 1;
   justify-content: center;
   margin-top: -198px;
   margin-bottom: 140px;
