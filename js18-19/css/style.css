@@ -220,8 +220,10 @@ body {
 
 .news {
   display: flex;
+  justify-content: space-between;
   width: 86%;
-  margin: auto; }
+  margin: auto;
+  padding-bottom: 80px; }
   .news h1 {
     font-size: 24px;
     margin-bottom: 45px;
@@ -301,3 +303,84 @@ body {
   height: 0px;
   overflow: hidden;
   margin: 0px; }
+
+.trade-marks {
+  width: 86%;
+  margin-left: 7%;
+  display: flex;
+  justify-content: space-between;
+  height: 65px;
+  margin-top: 70px; }
+
+.trade-mark-1 {
+  background-image: url("../img/banners.png");
+  width: 145px; }
+
+.trade-mark-2 {
+  background-image: url("../img/banners.png");
+  width: 145px;
+  background-position: -190px; }
+
+.trade-mark-3 {
+  background-image: url("../img/banners.png");
+  width: 180px;
+  background-position: -400px; }
+
+.trade-mark-4 {
+  background-image: url("../img/banners.png");
+  width: 145px;
+  background-position: -625px; }
+
+.trade-mark-5 {
+  background-image: url("../img/banners.png");
+  width: 145px;
+  background-position: -825px; }
+
+.trade-mark-6 {
+  background-image: url("../img/banners.png");
+  width: 145px;
+  background-position: -1005px; }
+
+footer {
+  background-color: #2a2d32; }
+  footer .nav-links {
+    display: flex;
+    color: white;
+    margin-left: 7%;
+    width: 86%;
+    justify-content: space-around;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 60px;
+    padding-bottom: 66px; }
+    footer .nav-links div {
+      width: 260px; }
+    footer .nav-links h2 {
+      margin-bottom: 30px; }
+    footer .nav-links ul {
+      list-style: none; }
+      footer .nav-links ul li {
+        margin-top: 15px;
+        border-bottom: 1px solid #393c40;
+        padding-bottom: 15px; }
+      footer .nav-links ul a {
+        text-decoration: none;
+        color: #7d7e80;
+        font-size: 13px; }
+      footer .nav-links ul a:hover {
+        color: #248cec; }
+    footer .nav-links li:last-child {
+      border-bottom: none; }
+
+.contacts {
+  background-color: #35383c;
+  color: #5d6063;
+  display: flex;
+  flex-flow: row;
+  padding-left: 7%;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .contacts div {
+    margin-right: 50px; }
+    .contacts div img {
+      margin-right: 15px; }
