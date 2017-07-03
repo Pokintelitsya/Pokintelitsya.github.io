@@ -1,0 +1,41 @@
+body{
+  background-color: #ffffff;
+}
+input{
+  padding: 5px 0px 5px 0px;
+}
+input[name="phone"]{
+  margin-left: 50px;
+}
+input[name="email"]{
+  margin-left: 76px;
+}
+input[name="password"]{
+  margin-left: 117px;
+}
+input[name="password2"]{
+  margin-left: 8px;
+}
+
+.data{
+  margin-bottom: 20px;
+  color: #15b284;
+}
+.phone, .passwordf, .password2f, .email{
+  background-color: #f8f8f8;
+  border: 1px solid #eaeaea;
+  width: 344px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+.email{
+  background-color: #f1faf8;
+  border: 1px solid #bcebdd;
+}
+
+span{
+  float: left;
+  color: red;
+  margin-left: 400px;
+  margin-top: -40px;
+}

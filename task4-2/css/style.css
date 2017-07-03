@@ -1,0 +1,32 @@
+body .content{
+  margin: 0px auto;
+}
+.content{
+  width:605px;
+  height: 651px;
+  background: #cdcdcd;
+}
+.content table{
+    border: 11px solid #ccc;
+  margin: auto;
+}
+table{
+  width:605px;
+  height: 651px;
+  border-collapse: collapse;;
+}
+table td{
+  border: 10px solid #0f0f0f;
+}
+table .big-red{
+  background-image: url('../img/red.jpg');
+}
+.yellow{
+  background-image: url('../img/yellow.jpg');
+}
+.blue{
+    background-image: url('../img/blue.jpg');
+}
+.black{
+    background-image: url('../img/black.jpg');
+}

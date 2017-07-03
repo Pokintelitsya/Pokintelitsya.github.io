@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+ul{
+  list-style: none;
+}
+.wrapper{
+  width: 1000px;
+  margin: 50px auto;
+}
+
+.top-panel{
+  background: url(../img/header-fon.png) repeat-x 50%;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  height: 25px;
+  position: relative;
+}
+.tabs{
+  background: url(../img/tab-fon.png) 50%;
+  display: inline-block;
+  float: left;
+  border-radius: 5px;
+  border-bottom: none;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  margin-right: 10px;
+  margin-left: 5px;
+  height: 25px;
+  width: 150px;
+  text-align: center;
+}
+.text{
+  display: none;
+  width: 850px;
+  padding:50px 97px 50px 50px;
+  font-size: 20px;
+  position: absolute;
+  top: 26px;
+  border: 1px solid #bbb;
+  border-top: none;
+  border-radius: 5px;
+}
+.text-2, .text-3{
+  display: none;
+}
+.active{
+  background: none;
+  background-color: white;
+  height: 26px;
+
+}

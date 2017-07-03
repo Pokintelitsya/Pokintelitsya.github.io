@@ -1,0 +1,52 @@
+.carousel-list li{
+  list-style: none;
+}
+.carousel-wrapper{
+  margin-top: 20px;
+  height: 170px;
+}
+.carousel{
+  margin:0 auto;
+  width: 950px;
+  overflow: hidden;
+  float: left;
+  left: 50%;
+  position: absolute;
+  margin-left: -35%;
+  display: block;
+}
+.carousel-list{
+  width: 1200px;
+  position: relative;
+  left: -975px;
+}
+.carousel-elem{
+  float: left;
+  margin-right: 25px;
+}
+.carousel-elem img{
+  width: 300px;
+}
+.arrow{
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  cursor: pointer;
+  margin-top: 62px;
+}
+.left-arrow{
+  float: left;
+  background-image: url('../img/left_arrow.png') ;
+  margin-left: 5%;
+}
+.right-arrow{
+  background-image: url('../img/right_arrow.png') ;
+  float: right;
+  margin-right: 5%;
+}
+.left-arrow:hover, .right-arrow:hover{
+  background-color: #ccc;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+}

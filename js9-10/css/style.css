@@ -1,0 +1,143 @@
+/*carousel*/
+.slick-slide img {
+  margin: 0 auto;
+}
+/*select*/
+select{
+  width: 200px;
+}
+.selectBox-label{
+  color: orange;
+}
+.someSelect{
+  margin: 20px auto;
+  width: 205px;
+}
+/*Checkbox Jquery*/
+.niceCheck {
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  cursor: pointer;
+  background: url(../img/checkbox.png);
+  overflow: hidden;
+}
+.label-for-checkbox{
+  color: orange;
+  text-transform: uppercase;
+  margin-left: 25px;
+}
+.niceChecked {
+  background-position: 0 -17px;
+}
+.niceCheck input {
+  margin-left: -100px; /* можно задать побольше чтобы наверняка скрыть поле */
+}
+.niceCheckDisabled {
+  background-image: url(../img/checkbox-disabled.png);
+}
+/*Checkbox CSS*/
+input[type=checkbox] {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+.checkbox-on-css {
+  cursor: pointer;
+}
+.checkbox-on-css:after {
+  content: " ";
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  background: url(../img/checkbox-2.png);
+  position: relative;
+  top: 3px;
+  margin-left: 15px;
+}
+input[type=checkbox]:checked + .checkbox-on-css:after {
+  background-position: 0 -17px;
+}
+.checkbox-on-css:hover:after {
+  background-position: 0 -34px;
+}
+input[type=checkbox]:checked + .checkbox-on-css:hover:after {
+  background-position: 0 -51px;
+}
+.checkboxes-on-css{
+  width: 110px;
+  color: orange;
+  margin-left: 25px;
+}
+.checkbox-on-css-title{
+  margin-top: 50px;
+  display: inline-block;
+}
+/*MENU*/
+.menuTitle{
+  margin-top: 50px;
+  display: inline-block;
+}
+nav {
+  background-color:rgb(255,100,100);
+  padding:10px 0;
+}
+nav ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+nav ul li {
+  display:inline-block;
+  position:relative;
+}
+.submenu{
+  background-color:rgb(225,75,75);
+}
+nav li ul {
+  background-color:rgb(225,75,75);
+  position:absolute;
+  left:0;
+  top:40px;
+  width:200px;
+}
+nav li li {
+  position:relative;
+  margin:0;
+  display:block;
+}
+nav li li ul {
+  position:absolute;
+  top:0;
+  left:200px;
+  margin:0;
+}
+nav a {
+  line-height:40px;
+  padding:0 12px;
+  margin:0 12px;
+}
+nav a {
+  color:#fff;
+  text-decoration:none;
+  display:block;
+}
+nav a:hover,
+nav a:focus,
+nav a:active {
+  color:rgb(50,50,50);
+}
+
+nav li li a {
+  border-bottom:solid 1px rgb(200,50,50);
+  margin:0 10px;
+  padding:0;
+}
+nav li li:last-child a {
+  border-bottom:none;
+}
+ul.submenu {
+  display:none;
+}
+.underNav{
+  height: 250px;
+}

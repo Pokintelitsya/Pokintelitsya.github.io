@@ -1,0 +1,34 @@
+.top_menu-item{
+  float: left;
+  margin-right: 8%;
+}
+.top_menu-item-lst{
+  margin-right: 0;
+}
+.news-article-lst{
+  margin-right: 0px;
+}
+.slider-nav{
+  background-image: url('../img/nav-ie.png');
+  width: 100%;
+  height: 678px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.slider:after{
+  display: none;
+}
+.menu-wrp{
+  width: 85%;
+}
+.top_menu{
+  margin-left: 22%;
+}
+.slider-iphone{
+  display: none;
+}
+.info-article a:hover{
+  background-image: url('../img/a-bg.png');
+  background-position: -1px -0px;
+  background-repeat: no-repeat;
+}
