@@ -2,15 +2,32 @@
 body {
     background-color: #1d262f;
     margin: 0;
-    overflow: hidden;
+}
+
+section > .title {
+    padding-left: 6px;
+}
+section > .title h2 {
+    font-family: "Montserrat-Bold";
+    margin: 0;
+    color: #4f5d6c;
+    font-size: 12px;
 }
 
 .shadow {
     box-shadow: 0px 1px 7px 0 rgba(0,0,0,0.2);
 }
+.coins::before {
+    display: inline-block;
+    content:'';
+    width: 15px;
+    height: 15px;
+    background: url("../img/coin.png") no-repeat;
+    background-size: cover;
+}
 .profile-container {
-    width: 600px;
-    margin: 40px auto;
+    width: 530px;
+    margin: 20px auto 40px;
 }
 .profile-title  h2 {
     font-family: "Montserrat-Bold";
@@ -69,19 +86,19 @@ body {
     border-radius: 5px;
 }
 .profile-header .profile-capture {
-    margin-top: 15px;
+    margin-top: 8px;
     text-align: center;
 }
 .profile-header .profile-capture .name-capture {
     font-family: "Montserrat-Bold";
     font-size: 20px;
     color: #fff;
-    margin-bottom: 12px;
+    margin-bottom: 6px;
 }
 .profile-header .profile-capture .team-capture {
     font-family: "Montserrat-SemiBold";
     color: #c17810;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 .profile-header .profile-progressbar {
     display: flex;
@@ -114,7 +131,7 @@ body {
     color: #346f45;
 }
 .profile-header .profile-progressbar-capture {
-    margin-top: 15px;   
+    margin-top: 8px;   
     font-family: "Montserrat-SemiBold";
     font-size: 10px;
     color: #fff; 
@@ -122,4 +139,128 @@ body {
 .profile-header .profile-progressbar-capture .xp {
     color: #3cc843;
     font-size: 12px;
+}
+
+.chalenges-overview {
+    margin-top: 15px;
+}
+.chalenges-overview .title {
+    margin-bottom: 15px;
+}
+.chalenges-overview .overview-cards {
+    display: flex;
+    justify-content: space-between
+}
+.chalenges-overview .overview-cards .card {
+    width: 165px;
+    height: 60px;
+    background-color: #222b35;
+    border-radius: 5px;   
+    display: flex;
+}
+.chalenges-overview .overview-cards .card .icon-block {
+    background-color: #2a3440;
+    width: 58px;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chalenges-overview .overview-cards .card .card-info {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.chalenges-overview .overview-cards .card .card-info .card-stat {
+    font-family: "Montserrat-Bold";
+    font-size: 18px;
+    color: #fff;
+}
+.chalenges-overview .overview-cards .card .card-info .card-title {
+    color: #585e64;
+    font-family: "Montserrat-SemiBold";
+    font-size: 12px;
+}
+
+.chalengers-list {
+    margin-top: 10px;
+}
+.chalengers-list .list-table .table-head {
+    display: flex;
+}
+.chalengers-list .list-table .table-body .table-row {
+    display: flex;
+    align-items: center;
+    background-color: #222b35;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    font-family: "Montserrat-SemiBold";
+    font-size: 14px;
+    color: white;
+    height: 40px;
+}
+.chalengers-list .list-table .table-body .table-row > div:first-child{
+    padding-left: 15px;
+}
+.chalengers-list .list-table .table-body .table-row .coins::before { 
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+}
+.chalengers-list .list-table .table-head {
+    margin-bottom: 10px;
+}
+.chalengers-list .list-table .table-head > div {
+    padding-left: 5px;
+    color: #545a61;
+    font-family: "Montserrat-Bold";
+    font-size: 10px;
+}
+.chalengers-list .list-table .table-head div:nth-child(1),
+.chalengers-list .list-table .table-body .table-row > div:nth-child(1) {
+    width: 55%;
+}
+.chalengers-list .list-table .table-head div:nth-child(2),
+.chalengers-list .list-table .table-body .table-row > div:nth-child(2) {
+    width: 25%;
+    text-align: center;
+}
+.chalengers-list .list-table .table-head div:nth-child(3),
+.chalengers-list .list-table .table-body .table-row > div:nth-child(3) {
+    width: 20%;
+    text-align: center;
+}
+
+.player-stats {
+    margin-top: 15px;
+}
+.player-stats .title {
+    margin-bottom: 15px;
+}
+.player-stats .stats-cards {
+    display: flex;
+    justify-content: space-between;
+}
+.player-stats .stats-cards > div {
+    border-radius: 50%;
+    width: 83px;
+    height: 83px;
+    background-color: #222b35;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.player-stats .stats-cards > div .stat-card-value {
+    color: white;
+    font-family: "Montserrat-SemiBold";
+    font-size: 18px;
+    padding-bottom: 2px;
+}
+.player-stats .stats-cards > div .stat-card-title {
+    color: white;
+    font-family: "Montserrat-Medium";
+    font-size: 12px;
+    color: #585e64;
 }
