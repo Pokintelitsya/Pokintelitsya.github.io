@@ -399,30 +399,31 @@
                             <h3>Apply to this position</h3>
                             <label>
                                 <span>Full Name</span>
-                                <input type="text" name="first_name" placeholder="Type your name here" required>
+                                <input type="text" name="full_name" placeholder="Type your name here">
+                                <span class="err-msg"></span>
                             </label>
 
                             <label>
                                 <span>Email:</span>
-                                <input type="email" id="email" class="error" name="email"
+                                <input id="email" class="error" name="email"
                                        placeholder="Enter your email">
+                                <span class="err-msg"></span>
                             </label>
                             <label>
                                 <span>Your phone</span>
-                                <input type="tel" name="phone" placeholder="Your mobile number" required>
-                                <span class="err-msg">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit, massa senectus feugiat volutpat egestas ultricies placerat. At mattis.
-                                </span>
+                                <input type="tel" name="phone" placeholder="Your mobile number">
+                                <span class="err-msg"></span>
                             </label>
 
                             <label>
                                 <span>How did you hear about Overwolf ?</span>
-                                <textarea name="comment-about" placeholder="This is my phone"></textarea>
+                                <textarea name="comment-about" placeholder="I heard about Overwolf from..."></textarea>
+                                <span class="err-msg"></span>
                             </label>
 
                             <label>
                                 <span>What games do you play?</span>
-                                <textarea name="comment-games" placeholder="Enter game name here"></textarea>
+                                <textarea name="comment-games" placeholder="I've been gaming since I can remember, but right now I'm focusing on..."></textarea>
                             </label>
 
                             <label class="textarea__text">
@@ -439,10 +440,8 @@
                                         <span class="text-white">Add files</span> or drag here:<br>
                                         (PDF, Doc, Docx formats only)
                                         <input id="upload-input" type="file" name="cv" accept=".pdf, .doc, .docx">
+                                        <span class="err-msg center"></span>
                                     </div>
-                                    <span class="err-msg center">
-                                        Unsupported format
-                                    </span>
                                 </div>
                             </label>
                             <label>
@@ -453,14 +452,14 @@
                             <button class="submit btn__pink">Send Application</button>
                             <div class="error" id="apply-form-error"></div>
                             <p class="email__link-career">
-                                Or, email us at: <br> <a href="" id="mailto"> </a>
+                                Or, email us at: <span class="br"></span> <a href="" id="mailto"> </a>
                             </p>
                         </form>
                         <div class="cv-sent-success" id="form-success" style="display: none">
                             <div class="cv-sent-success__content">
                                 <img src="img/career/cv-sent.svg" alt="cv sent">
                                 <div class="cv-sent-success__title">Achievement unlocked</div>
-                                <div class="cv-sent-success__subtitle">C.V quest completed</div>
+                                <div class="cv-sent-success__subtitle">You have completed the first part of your quest</div>
                             </div>
                         </div>
                     </div>
